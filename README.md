@@ -17,4 +17,4 @@ Open terminal and type the following:
 
 cd Authentication-System && python3 manage.py runserver
 
-Open browser and go to 127.0.0.1:8000
+Open browser and go to [127.0.0.1:8000](http://127.0.0.1:8000)
