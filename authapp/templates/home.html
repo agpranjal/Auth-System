@@ -1,0 +1,11 @@
+{%extends "base.html"%}
+{%block content%}
+{%if user.is_authenticated%}
+<h1>Homepage</h1>
+<h4>Welcome to My site, {{user.username}}!</h4>
+{%else%}
+<h4>Welcome to My site, anon!</h4>
+{%endif%}
+
+<h5>Total no. of registered users: {{count}}</h5>
+{%endblock%}
